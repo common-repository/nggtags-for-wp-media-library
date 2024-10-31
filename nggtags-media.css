@@ -1,0 +1,338 @@
+fieldset.bulk-edit-taxonomy div#bulk-title-div div#bulk-titles{
+    height:auto;
+    overflow-y:auto;
+}
+
+fieldset.bulk-edit-taxonomy label.inline-edit-tags span.title{
+    padding-right:5px;
+}
+
+div#nggml-bulk-priority-edit-button-revert:hover, div#nggml-bulk-priority-edit-button-reorder:hover{
+    cursor:default;
+}
+
+div#nggml-bulk-priority-edit-button-help:hover, div#nggml-bulk-priority-edit-button-help a:hover{
+    cursor:help;
+}
+
+#wpbody-content .bulk-edit-row fieldset.bulk-edit-priority.inline-edit-col-left{
+    width:100%;
+}
+
+/* following copied from "#bulk-titles div a" of ...\wp-admin\css\common.css */
+
+div#nggml-bulk-priority-edit-images div.nggml-bulk-priority-edit-slot a:before{
+    background: none;
+    color: #bbb;
+    content: '\f153';
+    display: block !important;
+    font: normal 16px/1 'dashicons';
+    speak: none;
+    height: 20px;
+    margin: 2px 0;
+    text-align: center;
+    width: 20px;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+div#nggml-bulk-priority-edit-images div.nggml-bulk-priority-edit-slot a:hover:before{
+    color: #c00;
+}
+
+div#nggml-bulk-priority-edit-images div.nggml-bulk-priority-edit-slot a,
+div#nggml-bulk-priority-edit-images div.nggml-bulk-priority-edit-slot a:hover {
+    background: none !important;
+}
+
+/* following copied from "#bulk-titles div a" of ...\wp-admin\css\list-tables.css */
+
+div#nggml-bulk-priority-edit-images div.nggml-bulk-priority-edit-slot a{
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 18px;
+    margin: 0 3px 0 -2px;
+    overflow: hidden;
+    position:absolute;
+    width: 20px;
+}
+
+div#nggml-bulk-priority-edit-images div.nggml-bulk-priority-edit-slot a:before{
+    position:absolute;
+}
+
+/* end of copied css */
+
+div#nggml-bulk-priority-edit-images div.nggml-bulk-priority-edit-slot a{
+    height: 22px;
+}
+
+    
+div.nggml-bulk-priority-edit-slot{
+    display:inline-block;
+    margin:20px 0px 0px 0px;
+}
+
+div.nggml-bulk-priority-edit-insert{
+    display:inline-block;
+    width:4px;
+    background-color:white;
+    margin:0px 4px 0px 0px;
+    vertical-align:middle;
+}
+
+div.nggml-bulk-priority-edit-insert.hover{
+    background-color:black;
+}
+
+div.nggml-bulk-priority-edit-item{
+    display:inline-block;
+    margin:0px;
+    text-align:center;
+    vertical-align:middle;
+    overflow:hidden;
+    border:2px solid black;
+    position:relative;
+}
+
+/* following copied from #bulk-titles of .../wp-admin/css/common.css */
+
+#attach-to-bulk-titles div a:before, #detach-bulk-titles div a:before {
+	background: none;
+	color: #bbb;
+	content: '\f153';
+	display: block !important;
+	font: normal 16px/1 'dashicons';
+	speak: none;
+	height: 20px;
+	text-align: center;
+	width: 20px;
+	-webkit-font-smoothing: antialiased !important;
+	margin: 2px 0;
+	position: relative;
+	top: -3px;
+}
+
+#attach-to-bulk-titles div a:hover:before, #detach-bulk-titles div a:hover:before {
+	color: #c00;
+}
+
+/* to  do hover */
+
+/* end of copied css */
+
+/* following copied from #bulk-titles of .../wp-admin/css/list-tables.css */
+
+#attach-to-bulk-titles, #detach-bulk-titles {
+	line-height: 140%;
+}
+
+#attach-to-bulk-titles div, #detach-bulk-titles div {
+	font-style: normal;
+	font-size: 11px;
+	margin: 0.2em 0.3em;
+}
+
+#attach-to-bulk-titles div a, #detach-bulk-titles div a {
+	cursor: pointer;
+	display: block;
+	float: left;
+	height: 18px;
+	margin: 0 3px 0 -2px;
+	overflow: hidden;
+	position: relative;
+	width: 20px;
+}
+
+/* end of copied css */
+
+div.nggml-filter-checkbox-overlay{
+    padding:10px;
+    border:1px solid black;
+    background-color:#e0e0e0;
+}
+
+div.nggml-filter-checkbox-overlay-controls{
+    text-align:right;
+}
+
+div.nggml-filter-checkbox-overlay-controls button.nggml-button-close{
+    background-color:transparent;
+    border:0px;
+    margin:0px;
+}
+
+div#nggml-alt-media-list-titles{
+    position:relative;
+    width:20%;
+    height:100%;
+    float:left;
+    overflow-y:auto;
+}
+
+div#nggml-alt-media-list-images{
+    position:relative;
+    width:79%;
+    height:100%;
+    float:right;
+    overflow-y:auto;
+}
+fieldset#nggml-alt-media-list-pane{
+    width:100%;
+}
+
+fieldset#nggml-alt-media-list-pane div#nggml-alt-media-list-titles li.nggml-image-title-box{
+  list-style-type:none;
+  margin-bottom:0px;
+}
+
+fieldset#nggml-alt-media-list-pane div#nggml-alt-media-list-titles li.nggml-image-title-box.nggml-focused span{
+  	background-color:magenta;
+}
+
+fieldset#nggml-alt-media-list-pane div#nggml-alt-media-list-titles li.nggml-image-title-box div.nggml-li-lock:before{
+    content: "\f160";
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font: normal 16px/1 'dashicons';
+    vertical-align: baseline;
+}
+
+fieldset#nggml-alt-media-list-pane div#nggml-alt-media-list-images div.nggml-image-icon-box{
+    position:relative;
+    display:inline-block;
+    padding:3px;
+  	border:5px solid #f0f0f0;
+    margin:3px;
+    float:left;
+}
+
+fieldset#nggml-alt-media-list-pane div#nggml-alt-media-list-images div.nggml-image-icon-box.nggml-focused{
+  	border:5px solid magenta;
+}
+
+fieldset#nggml-alt-media-list-pane div#nggml-alt-media-list-images div.nggml-image-icon-box input[type="checkbox"]{
+  	background-color:transparent;
+}
+
+fieldset#nggml-alt-media-list-pane div#nggml-alt-media-list-images img.nggml-image-icon-image{
+    display:block;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    
+}
+
+fieldset#nggml-alt-media-list-pane div#nggml-alt-media-list-images div.nggml-image-icon-box div.nggml-img-lock:before{
+    content: "\f160";
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font: normal 16px/1 'dashicons';
+    vertical-align: baseline;
+}
+
+div#nggml-overlay{
+  left:10%;
+  top:5%;
+  z-index:10000;
+  width:80%;
+  padding:20px;
+  border:5px solid black;
+  margin:auto;
+  text-align:center;
+  background-color:gray;
+}
+
+div#nggml-overlay div.nggml-overlay-controls{
+    text-align:right;
+}
+
+div#nggml-overlay div.nggml-overlay-controls button.nggml-button-close{
+    background-color:transparent;
+    border:0px;
+    margin:0px;
+}
+
+div#nggml-overlay div.nggml-overlay-controls p.nggml_actions{
+    text-align:left;
+    width:70%;
+    float:left;
+}
+
+div#nggml-overlay div.nggml-overlay-container{
+    clear:both;
+}
+
+div#nggml-overlay div.nggml-overlay-container div.nggml-overlay-left{
+    width:30%;
+    height:100%;
+    float:left;
+    text-align:left;
+    overflow-x:auto;
+    overflow-y:auto;
+}
+
+div#nggml-overlay div.nggml-overlay-left h1::before{
+    content:"Title:";
+}
+
+div#nggml-overlay div.nggml-overlay-left div.nggml-overlay-caption p::before{
+    content:"Caption:";
+    color:black;
+    font-weight:bold;
+}
+
+div#nggml-overlay div.nggml-overlay-left div.nggml-overlay-caption p{
+    margin:0px;
+}
+
+div#nggml-overlay div.nggml-overlay-left div.nggml-overlay-description p::before{
+    content:"Description:";
+    color:black;
+    font-weight:bold;
+    font-size:smaller;
+}
+
+div#nggml-overlay div.nggml-overlay-left div.nggml-overlay-description p{
+    font-size:smaller;
+    margin:0px;
+}
+
+div#nggml-overlay div.nggml-overlay-container div.nggml-overlay-right{
+    width:69%;
+    height:100%;
+    text-align:center;
+    float:right;
+    overflow-x:auto;
+    overflow-y:auto;
+}
+
+div#nggml-overlay div.nggml-overlay-container div.nggml-overlay-right img{
+    vertical-align:middle;
+}
+
+div#nggml-overlay div.nggml-overlay-left div.nggml-table-data p{
+    font-size:smaller;
+    margin:0px;
+}
+
+div#nggml-overlay div.nggml-overlay-left div.nggml-table-data p span.nggml-column-name{
+    font-size:smaller;
+    color:black;
+    font-weight:bold;
+}
+
+div#uploader-inline-container{
+    position:relative;
+}
+
+div#uploader-inline-container div.uploader-inline{
+    text-align:center;
+    border:4px dashed #bbb;
+    margin-bottom:20px;
+}
+
+div#uploader-inline-container div.uploader-inline div.uploader-inline-content{
+    position:static;
+}
